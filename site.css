@@ -1,0 +1,79 @@
+/* Front-end Style Guide for bioSite Project */
+
+/* Typography */
+body {
+  background-color: #e6e6fa; /* Light purple */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333333; /* Dark Gray */
+}
+
+h1, h2, h3 {
+  font-family: Roboto, Arial, sans-serif; /* Secondary Font */
+  font-weight: 700; /* Bold */
+}
+
+h1 {
+  font-size: 36px;
+  background-color: #add8e6; /* Light Blue */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding around the text */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+img {
+    max-width: 80%; /* Ensures the image does not exceed its container's width */
+	height: auto; /* Allows the image to scale proportionally */
+    display: block; /* Ensures there's no extra space beneath the image */
+	margin: 0 auto; /* Centers the image horizontally */
+	border: 4px solid navy; /* Adds a navy border around the image */
+}
+  
+
+/* Links */
+a {
+  color: #333333; /* Dark Gray */
+}
+
+a:hover {
+  color: #ffd700; /* Accent Color Yellow */
+}
+
+/* Forms */
+input[type="text"], textarea {
+  background-color: #ffffff; /* White */
+  color: #333333; /* Dark Gray */
+  border: 1px solid #cccccc; /* Light Gray */
+  padding: 8px;
+  margin: 5px 0;
+}
+
+input[type="text"]::placeholder, textarea::placeholder {
+  color: #cccccc; /* Light Gray */
+}
+
+input[type="submit"] {
+  background-color: #41b3a3; /* Primary Color Turquoise */
+  color: #ffffff; /* White */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.gallery-item {
+    background-color: white; /* Set the background color to white */
+}
+
+footer {
+    float: right; /* Align to the right */
+    margin-top: 40px; /* Adjust the margin from the top */
+    margin-right: 20px; /* Add some margin from the right */
+}
+
