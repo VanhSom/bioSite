@@ -155,7 +155,6 @@ footer a:hover {
   max-width: 500px;
   box-sizing: border-box;
   background-color: rgb(208, 208, 234); /* Change background color to black */
-
 }
 .gallery-item img {
   max-width: 100%;
@@ -171,15 +170,16 @@ footer a:hover {
 .gallery-item p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  color: dark grey; /* Dark Gray */
+  color: #333333; /* Dark Gray */
 }
+
 /* Background color for h2 */
 #Hobbiescontainer h2 {
   background-color: #add8e6; /* Light Blue */
   padding: 10px;
   border-radius: 5px;
-
 }
+
 #indexcontainer .gallery-item-index img {
   max-width: 100%;
   height: auto;
@@ -189,8 +189,8 @@ footer a:hover {
 }
 
 #goalscontainer figure img {
-  max-width: auto%; /* Adjusts the image size to half of its original size */
-  height: 40%;
+  max-width: 50%; /* Adjusted the value to be a percentage */
+  height: auto; /* Reset height to auto */
   display: block;
   margin: 0 auto;
 }
