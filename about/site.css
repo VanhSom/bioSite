@@ -1,0 +1,196 @@
+/* Base styles */
+body {
+  background-color: #e6e6fa; /* Light purple */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333333; /* Dark Gray */
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: Roboto, Arial, sans-serif; /* Secondary Font */
+  font-weight: 700; /* Bold */
+}
+
+h1 {
+  font-size: 36px;
+  background-color: #add8e6; /* Light Blue */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding around the text */
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center; /* Center the text */
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Images */
+img {
+  max-width: 100%; /* Ensures the image does not exceed its container's width */
+  height: auto; /* Allows the image to scale proportionally */
+  display: block; /* Ensures there's no extra space beneath the image */
+  margin: 0 auto; /* Centers the image horizontally */
+  border: 4px solid navy; /* Adds a navy border around the image */
+}
+
+/* Links */
+a {
+  color: #333333; /* Dark Gray */
+}
+
+a:hover {
+  color: #cca300; /* Darker Yellow */
+}
+
+/* Forms */
+input[type="text"],
+textarea {
+  background-color: #ffffff; /* White */
+  color: #333333; /* Dark Gray */
+  border: 1px solid #cccccc; /* Light Gray */
+  padding: 8px;
+  margin: 5px 0;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #cccccc; /* Light Gray */
+}
+
+input[type="submit"] {
+  background-color: #41b3a3; /* Primary Color Turquoise */
+  color: #ffffff; /* White */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Organisms */
+
+/* Navbar */
+#navbar {
+  overflow: hidden; /* Set overflow to hidden */
+  background-color: #add8e6; /* Light Blue background color */
+  border-bottom: 15px solid #d8d4e4; /* Solid bottom border with the specified color */
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: navy; /* White text color */
+  text-align: left; /* Center the text */
+  padding: 14px 20px; /* Adjust padding as needed */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Set font weight to bold */
+}
+
+/* Navbar links on hover */
+#navbar a:hover {
+  background-color: #ffe4b5; /* Light beige background color on hover */
+  color: #999; /* Lighter grey text color on hover */
+}
+
+/* Remove any margin or padding between navbar links */
+#navbar ul {
+  margin: 0;
+  padding: 0;
+}
+#navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Caption styles */
+figcaption {
+  text-align: right; /* Center the caption text */
+  font-size: 18px; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 10px; /* Add some space above the caption */
+  color: #333333; /* Dark Gray */
+  background-color: #e6e6fa; /* Light purple */
+}
+
+/* Templates */
+
+/* Gallery item */
+.gallery-item {
+  background-color: white; /* Set the background color to white */
+}
+
+/* Footer */
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding */
+  text-align: right; /* Center the content */
+}
+
+/* Footer links */
+footer a {
+  color: #fff; /* White text color for links */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Add margin between links */
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+#Hobbiescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: left;
+  margin: 10px;
+  max-width: 500px;
+  box-sizing: border-box;
+  background-color: rgb(208, 208, 234); /* Change background color to black */
+
+}
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Caption styles */
+.gallery-item figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+.gallery-item p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: dark grey; /* Dark Gray */
+}
+/* Background color for h2 */
+#Hobbiescontainer h2 {
+  background-color: #add8e6; /* Light Blue */
+  padding: 10px;
+  border-radius: 5px;
+
+}
+#indexcontainer .gallery-item-index img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid navy;
+}
+
+#goalscontainer figure img {
+  max-width: auto%; /* Adjusts the image size to half of its original size */
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
