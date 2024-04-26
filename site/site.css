@@ -144,7 +144,8 @@ h3.resource-links {
 }
 
 .cta-button {
-  display: inline-block; /* Display as inline block */
+  display: block; /* Display as inline block */
+  margin: 20px auto; /* Center the button horizontally */
   padding: 12px 24px; /* Add padding */
   background-color: #41b3a3; /* Primary Color Turquoise */
   color: #ffffff; /* White text color */
