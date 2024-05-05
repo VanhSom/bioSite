@@ -200,14 +200,22 @@ footer a:hover {
   box-sizing: border-box;
   background-color: rgb(208, 208, 234); /* Change background color to black */
 }
-.gallery-item img {
-  max-width: 100%;
-  height: auto;
-}
 
 /* Caption styles */
 .gallery-item figcaption {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
-  background-color: transparent; /* Remove the background color
+  background-color: transparent; /* Remove the background color */
+}
+
+/* Additional styles for goal page */
+.align-left {
+  float: left;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.align-right {
+  float: right;
+  margin-left: 10px; /* Adjust as needed */
+}
