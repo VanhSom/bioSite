@@ -135,7 +135,7 @@ h3.resource-links {
   text-align: center;
   color: #333333; /* Dark Gray */
   margin: 10px auto 20px;
-  max-width: auto;
+  max-width: 100%; /* Set maximum width */
 }
 
 /* Gallery item */
@@ -161,7 +161,7 @@ h3.resource-links {
 
 .cta-button:hover {
   background-color: #338a80; /* Darker shade of turquoise on hover */
-  border-color: #338a80; /* Darker shade of turquoise border on hover */
+  border-color: #41b3a3; /* Original turquoise color */
 }
 
 /* Footer */
@@ -210,23 +210,4 @@ footer a:hover {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
-  background-color: transparent; /* Remove the background color */
-}
-.gallery-item p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: #333333; /* Dark Gray */
-}
-
-/* Background color for h2 */
-#Hobbiescontainer h2 {
-  background-color: #add8e6; /* Light Blue */
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Caption styles for Hobbies page */
-#Hobbiescontainer .gallery-item figcaption {
-  background-color: transparent; /* Remove the background color */
-}
-
+  background-color: transparent; /* Remove the background color
