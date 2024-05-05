@@ -36,7 +36,7 @@ h3, p, ul {
 
 /* Images */
 img {
-  max-width: 100%; /* Ensures the image does not exceed its container's width */
+  max-width: 90%; /* Ensures the image does not exceed its container's width */
   height: auto; /* Allows the image to scale proportionally */
   display: block; /* Ensures there's no extra space beneath the image */
   margin: 0 auto; /* Centers the image horizontally */
